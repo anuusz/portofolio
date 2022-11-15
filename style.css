@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@600&display=swap");
+
+body {
+  font-family: "Caveat", cursive;
+  background-color: black;
+}
+
+/* Parallax */
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Hero Style */
+
+.banner {
+  background-image: url(img/banner/stefanus.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.judul {
+  padding-left: 2rem;
+  padding-top: 7rem;
+  font-size: 75px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+
+.mutiara {
+  padding-left: 37em;
+  padding-bottom: 11rem;
+  color: #ffffff;
+}
+
+/* About */
+
+#about {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/* My Project */
+
+.projects {
+  background-image: url(img/banner/photo-1615754890634-69ac8bca7189.jfif);
+}
+.underline {
+  text-decoration: none;
+}
+
+/* Footer */
+
+.text {
+  text-decoration: none;
+}

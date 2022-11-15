@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icon -->
+    <link rel="Icon" href="img/logo/logo-transparent-square.png" type="image/x-icon" />
+
+    <title>My Portofolio</title>
+  </head>
+  <body>
+    <!-- Banner -->
+    <div class="banner">
+      <h1 class="judul"></h1>
+      <h2 class="mutiara">
+        <b></b>
+      </h2>
+    </div>
+    <!-- end Banner -->
+
+    <!-- About -->
+    <section id="about">  
+      <div class="container text-light">
+        <div class="row text-center" data-aos="fade-down">
+          <div class="col-md-33">
+            <h4>I am a student from the Faculty of Industrial <br>Engineering majoring in Informatics Engineering,</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4" data-aos="fade-up">
+            <p>
+              The reason I chose an informatics engineering major was that I was attracted by a friend who tried python, it seemed fun and challenging and finally, I tried it but halfway through I found a video of web development material I eventually switched and pursued web development.
+            </p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-light text-center">
+          <div class="col mb-5">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <div class="card bg-dark text-light shadow">
+              <img src="img/projects/FirstProfile.jpeg" alt="FirstProfile">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="https://codenusz.github.io/dashboard" class="underline text-white fw-bold">Profile Web</a> Merupakan web pertama yang saya buat/ujicoba secara otodidak dengan bantuan video Youtube.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <div class="card bg-dark text-light shadow">
+              <img src="img/projects/Bucin.jpeg" alt="Bucin">
+              <div class="card-body">
+                <p class="card-text"><a href="https://codenusz.github.io/Bucin/ class="underline text-white fw-bold">Gallery Web</a> Web keisengan yang ingin dibuat seperti portofolio web disigner dengan hanya menampilkan gambar beranimasi pada saat discroll.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <div class="card bg-dark text-light">
+              <img src="img/projects/Tamborin.jpeg" alt="Tambourine">
+              <div class="card-body">
+                <p><b>Tambourine</b> (Unpublish). Merupakan website organisasi pertama yang saya buat tapi berhenti ditengah jalan karena kesibukan lain.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <div class="card bg-dark text-light shadow">  
+              <img src="img/projects/KetikinAja.jpeg" alt="KetikinAja">
+              <div class="card-body">
+                <p class="card-text"><a href="https://codenusz.github.io/KetikinAja/ class="underline text-white fw-bold">KetikinAja</a> Merupakan profile dari usaha jasa mengetik.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Projects -->
+    
+    <!-- fotter -->
+    <footer class="footer bg-black text-white text-center p-1">
+      <p>Create by <a href="https://www.instagram.com/stephanuszean/" class="underline text text-white fw-bold">Stefanus Eclesio.</a></p>
+    </footer>
+    <!-- End Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.judul', {duration: 1.5, text:'Hola! Im Stefanus.'})
+      gsap.to('.mutiara', {duration: 2.5, delay: 1.3, text:'"From life we ​​learn many things, and<br> from learning many things we can live."'})
+    </script>
+
+  </body>
+</html>

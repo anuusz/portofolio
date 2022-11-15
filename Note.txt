@@ -1,0 +1,8 @@
+1. Welcome page + Motto
+2. About
+3. Project publish/unpublish
+4. Contact
+   -Instagram
+   -Gmail
+   -GitHub
+   -whatsapp
